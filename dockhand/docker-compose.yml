@@ -12,7 +12,7 @@ services:
   dockhand:
     image: fnsys/dockhand:latest
     ports:
-      - 9000:3000
+      - 9200:3000
     environment:
       DATABASE_URL: postgres://dockhand:changeme@postgres:5432/dockhand
     volumes:
